@@ -11,10 +11,18 @@ Important: These limits and offerings are published by Oracle and may change alw
 ## Table of Contents
 1. [Account Prerequisites & Signup Notes](#account-prerequisites--signup-notes)
 2. [Region & Tenancy Considerations (Region Lock Warning)](#region--tenancy-considerations-region-lock-warning)
+3. [Create virtual machine](#
 
 
 ## Account Prerequisites & Signup Notes
-Sign up at https://cloud.oracle.com and start the Free Trial / Free Tier signup. You will need a valid debit/credit card for identity verification. 
+* Sign up at https://cloud.oracle.com and start the Free Trial / Free Tier signup. 
+* Fill in the account information and the verify your email.
+* Select 'Individual' Customer type and Germany Central (Frankfurt) as the home region
+* Fill in address and mobile details
+* Fill in credit/debit card detail. Remember there is no charge.
+* Agree to start your free trial
 
 ## Region & Tenancy Considerations (Region Lock Warning)
-Choose a region near your storage for my situation where Hetzner is in Germany then Frankfurt is a good choice for low latency.
+Choose a region near your storage for my situation as Hetzner is in Germany then Frankfurt is a good choice for low latency.
+
+## 
