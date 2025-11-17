@@ -122,6 +122,8 @@ Based on the above I have decided to use Hetzner Storage Box which has data cent
 * Metadata/database on local Oracle storage
 * Streaming directly from Hetzner
 
+## Detailed Setup Guides
+- [Oracle Cloud VM Setup Guide](./ORACLE SETUP.md)
 
 
 
