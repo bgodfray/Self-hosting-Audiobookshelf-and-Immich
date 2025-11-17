@@ -1,5 +1,4 @@
-## Oracle Cloud — Setup Guide
-
+# Oracle Cloud — Setup Guide
 Goal: create an always free Oracle Cloud VM suitable for hosting Audiobookshelf + Immich and prepare for Hetzner/remote object storage.
 
 * Oracle Cloud Free Tier gives a Free Trial with US$300 credits for 30 days and a set of Always Free resources that do not expire. 
@@ -7,14 +6,12 @@ Goal: create an always free Oracle Cloud VM suitable for hosting Audiobookshelf 
 * Always Free block storage: 200 GB total (boot + block volumes combined). 
 * Network: 10 TB per month outbound data transfer allowance (per originating region). 
 
-Important: These limits and offerings are published by Oracle and may change — always check Oracle’s official Free Tier page if in doubt. [Oracle Cloud Free Tier](https://www.oracle.com/cloud/free/)
-
+Important: These limits and offerings are published by Oracle and may change always check Oracle’s official Free Tier page if in doubt. [Oracle Cloud Free Tier](https://www.oracle.com/cloud/free/)
 
 ## Table of Contents
 1. [Account Prerequisites & Signup Notes](#account-prerequisites--signup-notes)
 2. [Region & Tenancy Considerations (Region Lock Warning)](#region--tenancy-considerations-region-lock-warning)
 
----
 
 ## Account Prerequisites & Signup Notes
 Sign up at https://cloud.oracle.com and start the Free Trial / Free Tier signup. You will need a valid debit/credit card for identity verification. 
