@@ -123,7 +123,7 @@ Based on the above I have decided to use Hetzner Storage Box which has data cent
 * Streaming directly from Hetzner
 
 ## Detailed Setup Guides
-- [Oracle Cloud VM Setup Guide](./ORACLE_SETUP.md)
+- [Oracle Cloud VM Setup Guide](./Docs/ORACLE_SETUP.md)
 
 
 
