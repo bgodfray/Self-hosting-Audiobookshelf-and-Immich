@@ -21,7 +21,8 @@ Important: These limits and offerings are published by Oracle and may change alw
 * Fill in address and mobile details
 * Fill in credit/debit card detail. Remember there is no charge.
 * Agree to start your free trial
-![Screenshot](Docs/Images/Oracle/oracle.png)
+  
+![Screenshot](Images/Oracle/oracle.png)
 
 ## Region & Tenancy Considerations (Region Lock Warning)
 Choose a region near your storage for my situation as Hetzner is in Germany then Frankfurt is a good choice for low latency.
