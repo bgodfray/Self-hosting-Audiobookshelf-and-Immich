@@ -42,7 +42,7 @@ While studying for the AWS Certified Cloud Practitioner certification, I discove
 * 5GB S3 standard storage
 * 20,000 GET requests and 2,000 PUT requests for S3
 
-#Conclusion: 
+# Conclusion: 
 Unfortunately, a 1 vCPU and 1GB RAM virtual machine is insufficient to support Audiobookshelf, Immich, and Tailscale. This led me to research other options such as Azure and Oracle Cloud alternatives.
 
 ### Cloud Provider Comparison
