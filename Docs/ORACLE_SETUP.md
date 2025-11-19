@@ -29,7 +29,7 @@ Choose a region near your storage for my situation as Hetzner is in Germany then
 ## Create Virtual Machine
 * log into [Oracle Cloud](https://www.oracle.com/cloud/sign-in.html)
 * Under services, click on Instances -> Create instance
-## Configuration:
+### Configuration:
 ### 1. Basic information
 * Name - Selfhostingserver
 * Placement - Select relevant domain
@@ -55,9 +55,9 @@ Choose a region near your storage for my situation as Hetzner is in Germany then
 ### 5. Review
 * Create and wait
 
-Unfortunately this did not work and I had to upgrade to a PAYG (pay as you go) account to be able to get a VM with the above specs which will still be free. YOu might get lucky and get to create your VM without the need of a PAYG account. So I created a budget alarm as a backup to ensure I stay in free tier.
+Unfortunately this did not work and I had to upgrade to a PAYG (pay as you go) account to be able to get a VM with the above specs which will still be free. You might get lucky and get to create your VM without the need of a PAYG account. So I created a budget alarm as a backup to ensure I stay in free tier.
 
-## Create budget alarm
+### Create budget alarm
 * Go to Billing & Cost Management
 * Select Budgets
 * Create Budget
