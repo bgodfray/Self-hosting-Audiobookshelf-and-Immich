@@ -13,6 +13,7 @@ Important: These limits and offerings are published by Oracle and may change alw
 2. [Region & Tenancy Considerations (Region Lock Warning)](#region--tenancy-considerations-region-lock-warning)
 3. [Create Virtual Machine](#create-virtual-machine)
 4. [Connect to Virtual Machine](#Connect-to-virtual-machine)
+5. [Virtual Machine Initial Server Setup](#virtual-machine-Initial-Server-Setup)
 
 ## Account Prerequisites & Signup Notes
 * Sign up at https://cloud.oracle.com and start the Free Trial / Free Tier signup. 
@@ -83,6 +84,37 @@ As you can see I asscess the VM instance.
 
 ![Screenshot](Images/Oracle/oracleVMinstance.png)
 
+## Virtual Machine Initial Server Setup
+For some security lets setup some firewalls
+
+### Configure Firewalls
+
+From your instance page -> Networking -> click on the Subnet name
+Click Security -> default Security list
+Click Security rules -> click Add Ingress Rules and add these rules:
+
+#### Rule 1 - SSH:
+Source CIDR: 0.0.0.0/0 
+Destination Port: 22
+Description: SSH access
+
+#### Rule 2 - HTTP:
+Source CIDR: 0.0.0.0/0
+Destination Port: 80
+Description: HTTP
+
+#### Rule 3 - HTTPS:
+Source CIDR: 0.0.0.0/0
+Destination Port: 443
+Description: HTTPS
+
+#### Rule 4 - Tailscale:
+Source CIDR: 0.0.0.0/0
+IP Protocol: UDP
+Destination Port: 41641
+Description: Tailscale
+
+Click Add Ingress Rules
 
 
 
