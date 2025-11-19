@@ -74,7 +74,7 @@ Unfortunately this did not work and I had to upgrade to a PAYG (pay as you go) a
 
 Recreate the above VM
 
-## Connect Virtual Machine
+## Connect to Virtual Machine
 Now to make sure the VM instance works I need to connect to it.
 
 I followed the instructions here for windows as that is what I was using [Oracle SSH Docs](https://docs.oracle.com/en-us/iaas/Content/Compute/Tasks/connect-to-linux-instance.htm)
