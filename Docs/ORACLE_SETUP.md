@@ -116,6 +116,41 @@ Description: Tailscale
 
 Click Add Ingress Rules
 
+Reconnect to the VM Instance 
+
+Update the system with the following command 'sudo apt update && sudo apt upgrade -y'
+
+Next config the firewall with 
+# Install UFW
+sudo apt install ufw -y
+
+# Now configure it
+sudo ufw allow 22/tcp
+sudo ufw allow 80/tcp
+sudo ufw allow 443/tcp
+sudo ufw allow 41641/udp
+sudo ufw enable
+sudo ufw status
+
+You will get 'Command may disrupt existing ssh connections proceed with opertaion (y|n) say Y
+
+Firewall now confirmed in place
+
+now to install docker for our self hosting servers
+
+# Install Docker
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+
+# Add your user to docker group
+sudo usermod -aG docker $USER
+
+# Install Docker Compose
+sudo apt install docker-compose -y
+
+# Logout and login again for group changes
+exit
+# Then reconnect via SSH
 
 
 
