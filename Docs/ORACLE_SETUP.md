@@ -12,7 +12,7 @@ Important: These limits and offerings are published by Oracle and may change alw
 1. [Account Prerequisites & Signup Notes](#account-prerequisites--signup-notes)
 2. [Region & Tenancy Considerations (Region Lock Warning)](#region--tenancy-considerations-region-lock-warning)
 3. [Create Virtual Machine](#create-virtual-machine)
-4. [Connect to Virtual Machine](#Connect-virtual-machine)
+4. [Connect to Virtual Machine](#Connect-to-virtual-machine)
 
 ## Account Prerequisites & Signup Notes
 * Sign up at https://cloud.oracle.com and start the Free Trial / Free Tier signup. 
