@@ -81,7 +81,7 @@ I followed the instructions here for windows as that is what I was using [Oracle
 
 As you can see I asscess the VM instance.
 
-![Screenshot](oracleVMinstance.png)
+![Screenshot](Images/Oracle/oracleVMinstance.png)
 
 
 
