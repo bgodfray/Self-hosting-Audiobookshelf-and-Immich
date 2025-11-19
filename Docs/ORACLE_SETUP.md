@@ -12,6 +12,7 @@ Important: These limits and offerings are published by Oracle and may change alw
 1. [Account Prerequisites & Signup Notes](#account-prerequisites--signup-notes)
 2. [Region & Tenancy Considerations (Region Lock Warning)](#region--tenancy-considerations-region-lock-warning)
 3. [Create Virtual Machine](#create-virtual-machine)
+4. [Connect to Virtual Machine](#Connect-virtual-machine)
 
 ## Account Prerequisites & Signup Notes
 * Sign up at https://cloud.oracle.com and start the Free Trial / Free Tier signup. 
@@ -72,6 +73,15 @@ Unfortunately this did not work and I had to upgrade to a PAYG (pay as you go) a
 * Email Message - Review Oracle account there is a charge
 
 Recreate the above VM
+
+## Connect Virtual Machine
+Now to make sure the VM instance works I need to connect to it.
+
+I followed the instructions here for windows as that is what I was using [Oracle SSH Docs](https://docs.oracle.com/en-us/iaas/Content/Compute/Tasks/connect-to-linux-instance.htm)
+
+As you can see I asscess the VM instance.
+
+![Screenshot](oracleVMinstance.png)
 
 
 
